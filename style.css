@@ -129,8 +129,23 @@ a:hover i{
     }
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 1200px) {
+    .hero-md-vh{
+        height: 150vh !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero-md-vh{
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 2500px) {
     .hero-md-vh{
         height: 115vh !important;
+    }
+    #services{
+        padding-top: 200px;
     }
 }
