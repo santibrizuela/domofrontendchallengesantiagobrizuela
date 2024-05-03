@@ -96,9 +96,24 @@ a:hover i{
         position: absolute !important;
     }
     .hero-md-vh{
-        height: 100vh !important;
+        height: 95vh !important;
+    }
+    .technology-md-vh{
+        height: 60vh !important;
     }
     .clients-md-vh{
         height: 40vh !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-md-vh{
+        height: 185vh !important;
+    }
+    .clients-md-vh{
+        height: 60vh !important;
+    }
+    .technology-md-vh{
+        height: 100vh !important;
     }
 }
