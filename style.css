@@ -117,3 +117,9 @@ a:hover i{
         height: 100vh !important;
     }
 }
+
+@media (min-width: 1024px) {
+    .hero-md-vh{
+        height: 135vh !important;
+    }
+}
