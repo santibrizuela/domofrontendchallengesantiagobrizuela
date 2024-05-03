@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+a:hover p{
+    color: #FFF;
+}
+a:hover i{
+    color: #FFF !important;
+}
+
 .navbar a{
     font-size: 14px;
     font-weight: 500;
