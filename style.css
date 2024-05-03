@@ -86,3 +86,19 @@ a:hover i{
 .clientscard{
     width: 20rem;
 }
+
+
+@media (min-width: 768px) {
+    .align-items-md-center {
+        align-items: center !important;
+    }
+    .md-position-absolute {
+        position: absolute !important;
+    }
+    .hero-md-vh{
+        height: 100vh !important;
+    }
+    .clients-md-vh{
+        height: 40vh !important;
+    }
+}
