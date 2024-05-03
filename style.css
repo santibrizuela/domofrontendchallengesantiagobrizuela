@@ -51,6 +51,7 @@ a:hover i{
     z-index: 1;
     position: relative;
     transition: all 400ms cubic-bezier(0.5,0,0,1);
+    margin-top: 1.5rem;
 }
 .card-icon i{
     font-size: 2rem;
@@ -92,9 +93,7 @@ a:hover i{
     .align-items-md-center {
         align-items: center !important;
     }
-    .md-position-absolute {
-        position: absolute !important;
-    }
+    
     .hero-md-vh{
         height: 95vh !important;
     }
@@ -102,7 +101,7 @@ a:hover i{
         height: 60vh !important;
     }
     .clients-md-vh{
-        height: 40vh !important;
+        height: 50vh !important;
     }
 }
 
@@ -111,15 +110,27 @@ a:hover i{
         height: 185vh !important;
     }
     .clients-md-vh{
-        height: 60vh !important;
+        height: 40vh !important;
     }
     .technology-md-vh{
         height: 100vh !important;
+    }
+    .align-items-md-center{
+        align-items: start !important;
+    }
+    .lg-position-absolute {
+        position: absolute !important;
     }
 }
 
 @media (min-width: 1024px) {
     .hero-md-vh{
         height: 95vh !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    .hero-md-vh{
+        height: 115vh !important;
     }
 }
